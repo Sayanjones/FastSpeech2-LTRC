@@ -29,9 +29,9 @@
 \begin{center}
   {\LARGE \textbf{FastSpeech 2-Based Text-to-Speech Synthesis for English and Telugu}}\\[0.8em]
   {\Large \textbf{An End-to-End Pedagogical Pipeline: From Speech Acoustics to Non-Autoregressive Transformers}}\\[1.2em]
-  {\large Sayan H. Mandal}\\[0.3em]
-  {\normalsize Undergraduate Researcher, CMATER Lab}\\[0.2em]
-  {\normalsize Department of Computer Science \& Engineering, Jadavpur University, Kolkata, India}\\[0.2em]
+  {\large Sayan Hasan Mandal}\\[0.3em]
+  {\normalsize Department of Computer Science \& Engineering}\\[0.2em]
+  {\normalsize KIIT, Bhubaneswar, Odisha, India}\\[0.2em]
   {\small \textit{Project conducted for Language Technologies Research Center (LTRC), IIIT Hyderabad}}\\[0.6em]
   {\normalsize November 2026}
 \end{center}
@@ -46,7 +46,7 @@ On an NVIDIA Tesla T4 GPU, our English model converged to a Mel L1 reconstructio
 \end{abstract}
 
 \vspace{0.5em}
-\noindent \textbf{Keywords:} Text-to-Speech Synthesis, FastSpeech 2, Non-Autoregressive Transformers, Variance Adaptor, Mel-Spectrogram, HiFi-GAN Vocoder, Svarah Benchmark, IndicTTS Telugu, CMATER Lab, LTRC IIIT-H.
+\noindent \textbf{Keywords:} Text-to-Speech Synthesis, FastSpeech 2, Non-Autoregressive Transformers, Variance Adaptor, Mel-Spectrogram, HiFi-GAN Vocoder, Svarah Benchmark, IndicTTS Telugu, LTRC IIIT-H.
 
 \vspace{0.8em}
 \hrule
@@ -519,7 +519,7 @@ Here are the real edge cases we encountered in the lab where simple rules fail:
 
 \section{Conclusion \& Future Work}
 
-Through this project at CMATER Lab and LTRC IIIT-H, we successfully built, trained, and verified an end-to-end FastSpeech~2 speech synthesis system for English and Telugu:
+Through this project for the Language Technologies Research Center (LTRC), IIIT Hyderabad, we successfully built, trained, and verified an end-to-end FastSpeech~2 speech synthesis system for English and Telugu:
 \begin{itemize}
   \item We proved that non-autoregressive feed-forward transformers eliminate catastrophic attention looping and repeated syllables, achieving sub-1.0 Mel L1 reconstruction loss on real GPU training runs.
   \item We demonstrated that Telugu's shallow, phonetic orthography allows direct grapheme-to-speech modeling, bypassing fragile G2P dictionaries.
@@ -527,22 +527,5 @@ Through this project at CMATER Lab and LTRC IIIT-H, we successfully built, train
 \end{itemize}
 
 \noindent \textbf{Next Steps}: We plan to incorporate learnable speaker embeddings ($\mathbf{E}_{\text{spk}}$) for multi-speaker synthesis, integrate contextual BERT embeddings to resolve syntactic heteronyms, and test continuous normalizing flows for multi-modal variance prediction.
-
-\begin{thebibliography}{99}
-\bibitem{ren2021fastspeech2}
-Y. Ren, C. Hu, X. Tan, T. Qin, S. Zhao, Z. Zhao, and T.-Y. Liu, ``FastSpeech 2: Fast and High-Quality End-to-End Text to Speech,'' in \textit{Proceedings of the International Conference on Learning Representations (ICLR)}, 2021.
-
-\bibitem{shen2018tacotron2}
-J. Shen, R. Pang, R. J. Weiss, M. Schuster, N. Jaitly, Z. Yang, Z. Chen, Y. Zhang, Y. Wang, R. Skerry-Ryan, R. A. Saurous, Y. Agiomyrgiannakis, and Y. Wu, ``Natural TTS Synthesis by Conditioning WaveNet on Mel Spectrogram Predictions,'' in \textit{IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, pp. 4779--4783, 2018.
-
-\bibitem{kong2020hifigan}
-J. Kong, J. Kim, and J. Bae, ``HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis,'' in \textit{Advances in Neural Information Processing Systems (NeurIPS)}, vol. 33, pp. 17022--17033, 2020.
-
-\bibitem{ai4bharat2023svarah}
-AI4Bharat, ``Svarah: A Benchmark Dataset for Indian-Accented English Speech Synthesis and Recognition,'' \textit{Indian Institute of Technology Madras}, 2023.
-
-\bibitem{indictts2020}
-IIT Madras Speech Consortium, ``IndicTTS: High Quality Text-to-Speech Database for Indian Languages,'' \textit{Department of Computer Science and Engineering, IIT Madras}, 2020. https://www.iitm.ac.in/donlab/indictts/.
-\end{thebibliography}
 
 \end{document}
