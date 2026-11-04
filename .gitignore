@@ -1,0 +1,43 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Raw and preprocessed dataset directories
+data/
+raw_data/
+preprocessed_data/
+mfa_corpus/
+TextGrid/
+
+# Training checkpoints (FastSpeech 2 model checkpoints are >100MB; stored on Google Drive)
+English/checkpoints/*.pth.tar
+Telugu/checkpoints/*.pth.tar
+!English/checkpoints/.gitkeep
+!Telugu/checkpoints/.gitkeep
+
+# Tensorboard raw event logs (optional: large event buffers)
+*.tfevents.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LaTeX build artifacts
+Report/*.aux
+Report/*.log
+Report/*.out
+Report/*.toc
+Report/*.synctex.gz

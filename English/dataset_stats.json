@@ -1,0 +1,23 @@
+{
+  "dataset": "ai4bharat/Svarah",
+  "language": "English",
+  "sampling_rate": 22050,
+  "random_seed": 42,
+  "train_split": {
+    "num_samples": 3592,
+    "total_duration_hours": 5.0,
+    "male_samples": 1796,
+    "female_samples": 1796
+  },
+  "val_split": {
+    "num_samples": 715,
+    "total_duration_hours": 1.0,
+    "male_samples": 358,
+    "female_samples": 357
+  },
+  "overlap": {
+    "audio_overlap_percentage": 0.0,
+    "prompt_overlap_percentage": 0.0
+  },
+  "status": "subsampled_disjoint_verified"
+}

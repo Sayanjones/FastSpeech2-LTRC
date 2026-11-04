@@ -1,0 +1,23 @@
+{
+  "dataset": "SPRINGLab/IndicTTS_Telugu",
+  "language": "Telugu",
+  "sampling_rate": 22050,
+  "random_seed": 42,
+  "train_split": {
+    "num_samples": 2063,
+    "total_duration_hours": 3.73,
+    "male_duration_hours": 2.50,
+    "female_duration_hours": 1.23
+  },
+  "val_split": {
+    "num_samples": 427,
+    "total_duration_hours": 0.77,
+    "male_duration_hours": 0.50,
+    "female_duration_hours": 0.27
+  },
+  "overlap": {
+    "audio_overlap_percentage": 0.0,
+    "prompt_overlap_percentage": 0.0
+  },
+  "status": "subsampled_disjoint_verified"
+}
