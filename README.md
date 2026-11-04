@@ -1,5 +1,11 @@
 # FastSpeech 2 TTS: English (Svarah) & Telugu (IndicTTS)
 
+**Author**: Sayan Hasan Mandal  
+**Department**: Department of Computer Science & Engineering, KIIT Bhubaneswar  
+**Project**: Language Technologies Research Center (LTRC), IIIT Hyderabad  
+
+---
+
 A complete, pedagogical reference implementation of **FastSpeech 2: Fast and High-Quality End-to-End Text to Speech** trained independently for:
 1. **English**: Subsampled from the **Svarah** benchmark (AI4Bharat Indic-accented English, ~5.0 h train / ~1.0 h validation, disjoint).
 2. **Telugu**: Subsampled from the **IndicTTS Telugu** dataset (IIT Madras Speech Consortium, ~5.0 h train / ~1.0 h validation, disjoint).
@@ -42,8 +48,8 @@ This repository conforms strictly to the submission structure and requirements s
 │           ├── pitch/                   # T1_pitch.png ... T4_pitch.png
 │           └── energy/                  # T1_energy.png ... T4_energy.png
 ├── Report/
-│   ├── Technical_Report.md  # Detailed technical report skeleton (factual sections filled)
-│   └── Technical_Report.pdf # Final compiled PDF report
+│   ├── Technical_Report.tex # LaTeX publication source code
+│   └── Technical_Report.pdf # Final compiled 17-page PDF report
 ├── model/                   # Core PyTorch FastSpeech 2 model, Variance Adaptor, Loss, Optimizer
 ├── transformer/             # Feed-Forward Transformer (FFT) blocks & Multi-Head Self-Attention
 ├── audio/                   # STFT audio transformations and mel-spectrogram extractors
@@ -243,5 +249,5 @@ Ensure the download links remain publicly accessible during the evaluation perio
 - [`CHANGES.md`](CHANGES.md): Complete log of every file modified or added to the base FastSpeech 2 codebase, including justifications.
 - [`DECISIONS.md`](DECISIONS.md): Architectural decisions, linguistic trade-offs, and rejected engineering alternatives.
 - [`test_sentences.py`](test_sentences.py): Detailed byte-level Unicode anomaly audit and pronunciation challenges for test sentences.
-- [`Report/Technical_Report.md`](Report/Technical_Report.md): Full technical report skeleton with factual sections completed.
+- [`Report/Technical_Report.tex`](Report/Technical_Report.tex) & [`Report/Technical_Report.pdf`](Report/Technical_Report.pdf): 17-page technical report following academic publication formatting with full table of contents and pedagogical explanations.
 
