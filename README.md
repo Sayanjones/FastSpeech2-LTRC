@@ -1,12 +1,11 @@
 # FastSpeech 2 TTS: English (Svarah) & Telugu (IndicTTS)
 
 **Author**: Sayan Hasan Mandal  
-**Department**: Department of Computer Science & Engineering, KIIT Bhubaneswar  
 **Project**: Language Technologies Research Center (LTRC), IIIT Hyderabad  
 
 ---
 
-A complete, pedagogical reference implementation of **FastSpeech 2: Fast and High-Quality End-to-End Text to Speech** trained independently for:
+A complete, pedagogical reference implementation of **FastSpeech 2: Fast and High-Quality End-to-End Text-to-Speech ** trained independently for:
 1. **English**: Subsampled from the **Svarah** benchmark (AI4Bharat Indic-accented English, ~5.0 h train / ~1.0 h validation, disjoint).
 2. **Telugu**: Subsampled from the **IndicTTS Telugu** dataset (IIT Madras Speech Consortium, ~5.0 h train / ~1.0 h validation, disjoint).
 
